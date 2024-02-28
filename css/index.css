@@ -2,7 +2,7 @@
 /*   --width: 1344px; */
   --width: 100%;
   --wiki-width: 805px;
-  --gosa: 17px;
+  --gosa: 0px;
   --game-width: calc(var(--width) - var(--wiki-width) + var(--gosa));
 }
 
