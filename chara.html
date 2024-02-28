@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="ja">
+    <title>キャラ一覧</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/chara.css">
+  </head>
+  <body>
+    <iframe src="header.html" frameborder="0"></iframe>
+    <main>
+      <article>
+        <h2>キャラ一覧</h2>
+        <pre style="word-wrap: break-word; white-space: pre-wrap;">()内のアイテムは基本消費する。消費しないアイテムのみ「★」が先に付く。
+【職業武器適正の見方(威力…強 ◎○△× 弱)】
+※超級よりさらに上の役職も…？
+※虎の巻を所持していない場合は転職で経験値半減するので注意
+
+アサルト(戦士 剣士◎、杖×)
+・クリティカル
+
+メディック(援護 剣△、杖△)
+・HP回復
+・敵バリア弱体化
+
+ゴースト(特殊 剣×、杖◎)
+・先制攻撃
+
+リーコン(探索 剣△、杖×)
+・クリティカル
+・仕掛け発見＆回避
+・文字解読
+・入手金額増加
+・幸運
+
+ボマー(戦士上級 剣◎、杖×)
+・クリティカル
+・爆発(攻撃してきた敵にダメージ)
+・力がみなぎる(攻撃力UP)
+・ステータスHP多
+
+ランチャー(戦士特殊 剣◎、杖◎)
+・クリティカル
+・武器種問わず物理と特殊が上昇
+・迫撃砲(先制攻撃)
+・力がみなぎる(攻撃力UP)
+・文字の解読
+
+マゴ(援護上級 剣○、杖○)
+・呪い無効化
+・HP回復(強)
+・敵バリア軽減(超)
+・魔法陣(味方回復)
+・魔法陣(敵デバフ)
+
+シールド(戦士援護 剣◎、杖△)
+・クリティカル
+・盾展開(防御力UP)
+・力がみなぎる(攻撃力UP)
+・HP回復
+・敵バリア軽減
+
+エレクトリック(援護特殊 剣△、杖◎)
+・呪い無効化
+・HP回復
+・敵バリア軽減
+・雷撃(先制攻撃)
+・痺れさせる(敵行動不能)
+
+スウィニー(特殊上級 剣×、杖◎)
+・HP吸収
+・奇襲(先制攻撃)
+・『トリック』(相手の攻撃無力化かつ回復)-2MP
+・赤ニンジン(HP UP)※
+・ムキムキニンジン(攻撃力UP)※
+・カチコチニンジン(防御力UP)※
+・ステッキ(スキル威力UP)※
+・マジカルマント(敵の攻撃無力化)※
+・プラチナマント(敵の攻撃力ダウン)※
+※冒険の最初の戦闘のみどれかが確定で発動
+
+インビジブル(特殊探索 剣△、杖○)
+・奇襲(先制攻撃)
+・クリティカル(確率高)
+・連撃(確率で2回攻撃)
+・透明化(回避)
+・仕掛け発見＆回避
+・文字解読
+・入手金額増加
+・強運
+
+フック(探索上級 剣○、杖×)
+・クリティカル(確率高)
+・陽気な歌(攻撃力UP)
+・自慢話、糸に絡まる(効果不明)
+・敵に悪口(敵の攻撃力UP or 敵バリア消滅)
+・拘束(敵行動不可)
+・マネーアタック(パーティ全員が所持金を失う。威力と消費金額はそれぞれのプレイヤーの所持金に比例する)
+・仕掛け発見、回避
+・入手金額増加
+・文字解読
+・強運(レアドロップ出やすい)
+
+アーミー(探索系から確率で転職欄出現※ 剣◎、杖◎)
+・クリティカル(確率高)
+・HPMP大幅強化
+※探索スキルなし
+
+ミオキャット(戦士超級 剣◎、杖×)
+・クリティカル(確率高)
+・威嚇(敵の攻撃力DOWN)
+・激昂(被弾時確率で次のターンクリティカル確定)
+・HP強化大
+
+ホイールレッグ(援護超級 剣○、杖○)
+・HP回復(超)※
+・敵バリア弱体化(強)※
+・力がみなぎる(攻撃力UP)※
+・不思議なベール(防御力UP)※
+・不思議な掛け声(HP増加orMP増加)※
+※毎ターンの最初に確定発動
+
+ケログ(特殊超級 剣×、杖◎)
+・先制攻撃
+・カエルタレット(確定ダメージ、攻撃力は本体に依存)
+・輪唱(スキル威力UP)
+・MP強化大
+
+ブレード(探索超級 剣〇、杖‪✕‬)
+・クリティカル(確率最高)
+・仕掛け発見＆回避
+・入手金額増加
+・一撃必殺
+・強運(レアドロップが出やすい)
+
+チュチュ(アイテム転職 剣◎、杖×)
+・クリティカル
+・燃焼(毎ターンHP15%消費＆2回攻撃。効果は自分のみ)
+・力がみなぎる(攻撃力UP)
+
+プラグ(アイテム転職 剣○、杖△)
+・ドローン召喚(確定ダメージ、攻撃力は本体に依存)
+・電磁波(敵バリア軽減)
+・文字解読
+・強運(レアドロップが出やすい)
+
+クリーミー(アイテム転職 剣○、杖○)
+・クリティカル
+・クリームトラップ(敵に攻撃力DOWN、防御力DOWN、2ターン行動不能のどれかを付与)
+・入手金額増加
+
+アイアン(アイテム転職 剣◎、杖×)
+・クリティカル
+・ダメージカット(ダメージカット＆敵の攻撃力DOWN)
+・力がみなぎる(攻撃力UP)
+
+デスペラード(アイテム転職 剣◎、杖×)
+・クリティカル
+・リボルバールーレット(確率で「敵にダメージ」「味方にダメージ」「何も起きない」のどれかが発動)
+・強奪(敵からお金を盗む)
+
+エア(アイテム転職 剣○、杖○)
+・クリティカル
+・急所を突く(敵防御力DOWN)
+・空中回避(敵の攻撃をよけた次のターンにクリティカル確定)※
+　※一つの戦闘の中の次のターンで確定　(敵が死亡して次の戦闘に切り替わった場合リセットされる)
+
+ビベリ(アイテム転職 戦士 剣○、杖○)
+・クリティカル
+・戦車に乗る(HP増加)
+・敵の最大HPに依存した攻撃力
+・入手金額増加
+・強運(レアドロップ出やすい)
+
+・(今のレベル)×(次のレベル)×6でLvアップ(単位EXP)
+※Lv25までの上がり方
+・現在のレベル*次のレベル*6*(現在のレベル+15の平方根/5)
+(Lv26以降。小数点切り捨て) </pre>
+        <section>
+          <table>
+            <tr>
+              <td>キャラ名</td>
+              <td>スキル名</td>
+            </tr>
+            <tr>
+              <td>キャラ２</td>
+              <td>スキル２</td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h3 id="c1">アサルト(戦士 剣士◎、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c2">メディック(援護 剣△、杖△)</h3>
+          <ul>
+            <li>HP回復</li>
+            <li>敵バリア弱体化</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c5">ゴースト(特殊 剣×、杖◎)</h3>
+          <ul>
+            <li>先制攻撃</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c4">リーコン(探索 剣△、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>仕掛け発見＆回避</li>
+            <li>文字解読</li>
+            <li>入手金額増加</li>
+            <li>幸運</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c3">ボマー(戦士上級 剣◎、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>爆発(攻撃してきた敵にダメージ)</li>
+            <li>力がみなぎる(攻撃力UP)</li>
+            <li>ステータスHP多</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c7">ランチャー(戦士特殊 剣◎、杖◎)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>武器種問わず物理と特殊が上昇</li>
+            <li>迫撃砲(先制攻撃)</li>
+            <li>力がみなぎる(攻撃力UP)</li>
+            <li>文字の解読</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c20">マゴ(援護上級 剣○、杖○)</h3>
+          <ul>
+            <li>呪い無効化</li>
+            <li>HP回復(強)</li>
+            <li>敵バリア軽減(超)</li>
+            <li>魔法陣(味方回復)</li>
+            <li>魔法陣(敵デバフ)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c6">シールド(戦士援護 剣◎、杖△)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>盾展開(防御力UP)</li>
+            <li>力がみなぎる(攻撃力UP)</li>
+            <li>HP回復</li>
+            <li>敵バリア軽減</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c17">エレクトリック(援護特殊 剣△、杖◎)</h3>
+          <ul>
+            <li>呪い無効化</li>
+            <li>HP回復</li>
+            <li>敵バリア軽減</li>
+            <li>雷撃(先制攻撃)</li>
+            <li>痺れさせる(敵行動不能)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c19">スウィニー(特殊上級 剣×、杖◎)</h3>
+          <ul>
+            <li>HP吸収</li>
+            <li>奇襲(先制攻撃)</li>
+            <li>『トリック』(相手の攻撃無力化かつ回復)-2MP</li>
+            <li>赤ニンジン(HP UP)※</li>
+            <li>ムキムキニンジン(攻撃力UP)※</li>
+            <li>カチコチニンジン(防御力UP)※</li>
+            <li>ステッキ(スキル威力UP)※</li>
+            <li>マジカルマント(敵の攻撃無力化)※</li>
+            <li>プラチナマント(敵の攻撃力ダウン)※</li>
+            <li>※冒険の最初の戦闘のみどれかが確定で発動</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c8">インビジブル(特殊探索 剣△、杖○)</h3>
+          <ul>
+            <li>奇襲(先制攻撃)</li>
+            <li>クリティカル(確率高)</li>
+            <li>連撃(確率で2回攻撃)</li>
+            <li>透明化(回避)</li>
+            <li>仕掛け発見＆回避</li>
+            <li>文字解読</li>
+            <li>入手金額増加</li>
+            <li>強運</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c9">フック(探索上級 剣○、杖×)</h3>
+          <ul>
+            <li>クリティカル(確率高)</li>
+            <li>陽気な歌(攻撃力UP)</li>
+            <li>自慢話、糸に絡まる(効果不明)</li>
+            <li>敵に悪口(敵の攻撃力UP or 敵バリア消滅)</li>
+            <li>拘束(敵行動不可)</li>
+            <li>マネーアタック(パーティ全員が所持金を失う。威力と消費金額はそれぞれのプレイヤーの所持金に比例する)</li>
+            <li>仕掛け発見、回避</li>
+            <li>入手金額増加</li>
+            <li>文字解読</li>
+            <li>強運(レアドロップ出やすい)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c0">アーミー(探索系から確率で転職欄出現※ 剣◎、杖◎)</h3>
+          <ul>
+            <li>クリティカル(確率高)</li>
+            <li>HPMP大幅強化</li>
+            <li>※探索スキルなし</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c11">ミオキャット(戦士超級 剣◎、杖×)</h3>
+          <ul>
+            <li>クリティカル(確率高)</li>
+            <li>威嚇(敵の攻撃力DOWN)</li>
+            <li>激昂(被弾時確率で次のターンクリティカル確定)</li>
+            <li>HP強化大</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c14">ホイールレッグ(援護超級 剣○、杖○)</h3>
+          <ul>
+            <li>HP回復(超)※</li>
+            <li>敵バリア弱体化(強)※</li>
+            <li>力がみなぎる(攻撃力UP)※</li>
+            <li>不思議なベール(防御力UP)※</li>
+            <li>不思議な掛け声(HP増加orMP増加)※</li>
+            <li>※毎ターンの最初に確定発動</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c13">ケログ(特殊超級 剣×、杖◎)</h3>
+          <ul>
+            <li>先制攻撃</li>
+            <li>カエルタレット(確定ダメージ、攻撃力は本体に依存)</li>
+            <li>輪唱(スキル威力UP)</li>
+            <li>MP強化大</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c18">ブレード(探索超級 剣〇、杖‪✕‬)</h3>
+          <ul>
+            <li>クリティカル(確率最高)</li>
+            <li>仕掛け発見＆回避</li>
+            <li>入手金額増加</li>
+            <li>一撃必殺</li>
+            <li>強運(レアドロップが出やすい)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c22">チュチュ(アイテム転職 剣◎、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>燃焼(毎ターンHP15%消費＆2回攻撃。効果は自分のみ)</li>
+            <li>力がみなぎる(攻撃力UP)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c21">プラグ(アイテム転職 剣○、杖△)</h3>
+          <ul>
+            <li>ドローン召喚(確定ダメージ、攻撃力は本体に依存)</li>
+            <li>電磁波(敵バリア軽減)</li>
+            <li>文字解読</li>
+            <li>強運(レアドロップが出やすい)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c15">クリーミー(アイテム転職 剣○、杖○)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>クリームトラップ(敵に攻撃力DOWN、防御力DOWN、2ターン行動不能のどれかを付与)</li>
+            <li>入手金額増加</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c12">アイアン(アイテム転職 剣◎、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>ダメージカット(ダメージカット＆敵の攻撃力DOWN)</li>
+            <li>力がみなぎる(攻撃力UP)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c10">デスペラード(アイテム転職 剣◎、杖×)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>リボルバールーレット(確率で「敵にダメージ」「味方にダメージ」「何も起きない」のどれかが発動)</li>
+            <li>強奪(敵からお金を盗む)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c16">エア(アイテム転職 剣○、杖○)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>急所を突く(敵防御力DOWN)</li>
+            <li>空中回避(敵の攻撃をよけた次のターンにクリティカル確定)※</li>
+            <li>※一つの戦闘の中の次のターンで確定　(敵が死亡して次の戦闘に切り替わった場合リセットされる)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="c23">ビベリ(アイテム転職 戦士 剣○、杖○)</h3>
+          <ul>
+            <li>クリティカル</li>
+            <li>戦車に乗る(HP増加)</li>
+            <li>敵の最大HPに依存した攻撃力</li>
+            <li>入手金額増加</li>
+            <li>強運(レアドロップ出やすい)</li>
+          </ul>
+        </section>
+        <section>
+          <h3 id="#">アサルト</h3>
+          <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.
+
+                So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        </section>
+        <section>
+          <h3 id="#">メディック</h3>
+          <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.
+
+                So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        </section>
+        <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.
+
+                So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.
+
+                So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+        <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to
+                learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or
+                an expert wanting to share ideas, tips, and photos with other like-minded people.
+
+                So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!
+            </p>
+      </article>
+      <aside>
+        <h2>さいど</h2>
+        <div class="side-list">
+          <ul>
+            <li>aside-li1</li>
+            <li>aside-li2</li>
+            <li>aside-li3</li>
+            <li>
+              <a href="#c0">アーミー</a>
+            </li>
+            <li>aside-li2</li>
+            <li>aside-li3</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>ふったぁ</footer>
+  </body>
+</html>
