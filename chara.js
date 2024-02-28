@@ -1,0 +1,242 @@
+const data = [{
+  id: 0,
+  name: "アーミー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "3",
+  root: "リーコン",
+  node: ["ブレード"],
+  needItem: false,
+  item: ""
+}, {
+  id: 1,
+  name: "アサルト",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: ["ボマー"],
+  needItem: false,
+  item: ""
+}, {
+  id: 2,
+  name: "メディック",
+  skills: ["heal", "barria"],
+  sword: "1",
+  wand: "1",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 3,
+  name: "ボマー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 4,
+  name: "リーコン",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 5,
+  name: "ゴースト",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 6,
+  name: "シールド",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 7,
+  name: "ランチャー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 8,
+  name: "インビジブル",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 9,
+  name: "フック",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 10,
+  name: "デスペラード",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 11,
+  name: "ミオキャット",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 12,
+  name: "アイアン",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 13,
+  name: "ケログ",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 14,
+  name: "ホイールレッグ",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 15,
+  name: "クリーミー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 16,
+  name: "エアー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 17,
+  name: "エレクトリック",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 18,
+  name: "ブレード",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 19,
+  name: "スウィニー",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 20,
+  name: "マーゴ",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 21,
+  name: "プラグ",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 22,
+  name: "チュチュ",
+  skills: ["critical"],
+  sword: "3",
+  wand: "0",
+  root: "none",
+  node: [],
+  needItem: false,
+  item: ""
+}, {
+  id: 23,
+  name: "ビベリ",
+  skills: ["critical", "luck", "hpRefAtk", "rideTank"],
+  sword: "2",
+  wand: "2",
+  root: "none",
+  node: ["???"],
+  needItem: true,
+  item: "木の装甲"
+}];
+
