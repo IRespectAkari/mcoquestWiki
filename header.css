@@ -1,0 +1,142 @@
+/* 変数宣言 */
+:root {
+  --height: 50px;
+  /*  ヘッダーの高さ  */
+}
+
+li:hover {
+  background-color: red;
+}
+
+header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: var(--height);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  background-color: rgb(33 150 243 / 80%);
+}
+
+header nav {
+  display: flex;
+  flex: 100%;
+  height: var(--height);
+  font-size: 14px;
+}
+
+nav ul {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li > a {
+  flex: 1;
+  padding: 15px 0;
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+  /* padding: -4px; */
+}
+
+/* --------- ここからホバーして表示されるdivのcss --------- */
+div.hideMenu-flex, div.hideMenu-grid {
+  position: fixed;
+  display: none;
+  top: var(--height);
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 2px;
+  background-color: blue;
+}
+
+div.hideMenu-flex a, div.hideMenu-grid a {
+  text-decoration: none;
+}
+
+div.hideMenu-flex a:hover, div.hideMenu-grid a:hover {
+  background-color: red;
+}
+
+li:hover div.hideMenu-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li:hover div.hideMenu-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 98px);
+  grid-template-rows: repeat(3, 100px);
+/*   gap: 5px 79px; */
+}
+
+/* 幅が 767px 以下であれば(最大値が767pxであれば) */
+@media (max-width: 767px) {
+}
+
+/* 幅が 805px 以上であれば(最小値が805pxであれば) */
+@media (mim-width: 805px) {
+}
+
+/* --------- ここからキャラ図鑑のcss --------- */
+/* 画像の幅 */
+div.hideMenu-grid img {
+  width: 75px;
+}
+
+/* 一つ一つのスタイル */
+div.hideMenu-grid a {
+  display: flex;
+  margin: 4px;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000b4;
+}
+
+/* 文字の色 */
+div.hideMenu-grid * {
+  color: white;
+  font-size: 12px;
+}
+
+/* --------- ここからダンジョン地図のcss --------- */
+li > div#dungeon {
+  display: none;
+}
+
+li:hover > div#dungeon {
+  display: flex;
+}
+
+div#dungeon li {
+  margin: 2px 5px;
+  background-color: #0000b4;
+}
+
+/* --------- ここから現在時刻のcss --------- */
+#currentInfo {
+  width: 150px;
+  margin: 4px;
+}
+
+#currentDay, #currentTime {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}

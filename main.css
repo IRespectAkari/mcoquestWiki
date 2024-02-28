@@ -1,0 +1,92 @@
+:root {
+  --header_height: 50px;
+}
+
+html, body {
+  scroll-padding-top: var(--header_height);
+}
+
+iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header_height);
+  z-index: 999;
+}
+
+iframe:hover {
+  height: calc(var(--header_height) + 430px);
+}
+
+main {
+  margin: var(--header_height) 0 0 0;
+  display: flex;
+}
+
+body {
+      /* background-color: skyblue; */
+}
+
+a:hover {
+  background-color: red;
+}
+
+table {
+  margin: 3px;
+  border-collapse: collapse;
+}
+
+table * {
+  border: 1px solid black;
+}
+
+div#horaanaTable {
+  margin: 0 10px
+}
+
+#todaysHoraanaTable table, #nextHoraanaTable table {
+  margin: auto auto auto 0;
+  caption-side: top;
+  min-width: 540px;
+}
+
+#todaysHoraanaTable table {
+  margin: auto auto 10px 0;
+}
+
+#todaysHoraanaTable caption, #nextHoraanaTable caption {
+  border: none;
+}
+
+#todaysHoraanaTable td, #nextHoraanaTable td {
+}
+
+.motimono {
+  width: 110px;
+  text-align: center;
+}
+
+.housyuu {
+  width: 150px;
+}
+
+.teki {
+  width: 280px;
+}
+
+/* ここからサイドのcss */
+aside {
+  min-width: 150px;
+}
+
+aside h2 {
+  margin: 1em;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+

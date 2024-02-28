@@ -1,0 +1,68 @@
+:root {
+  --width: 1344px;
+  --wiki-width: 805px;
+  --gosa: 17px;
+  --game-width: calc(var(--width) - var(--wiki-width) + var(--gosa));
+}
+
+iframe#wiki {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: var(--wiki-width);
+  height: 100%;
+}
+
+iframe#game {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(var(--width) - var(--wiki-width) + var(--gosa));
+  height: 100%;
+}
+
+div#gameLink {
+  position: fixed;
+  margin: 1px;
+  padding: 5px;
+  top: 0;
+  right: var(--wiki-width);
+  width: 140px;
+  background-color: black;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div#gameLink > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#gameLink > div#anotherLinks {
+  display: none;
+}
+
+div#gameLink:hover > div#anotherLinks {
+  --button_gap: 1px;
+  display: grid;
+  margin-top: var(--button_gap);
+  gap: var(--button_gap);
+}
+
+button#special {
+  position: fixed;
+  /* display: none; */
+  top: 59px;
+  left: 165px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+button#special img {
+  width: 24px;
+}
+
+.button_hide {
+  display: none;
+}
